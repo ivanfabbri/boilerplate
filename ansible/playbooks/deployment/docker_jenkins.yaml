@@ -35,6 +35,6 @@
         networks:
           - name: devops_network
         privileged: yes
-        user: "{{ uid }}:{{ gid }}"
+        user: "{{ uid }}:980"
         restart_policy: unless-stopped
         state: started
